@@ -4,7 +4,8 @@
 
 [![Magisk](https://img.shields.io/badge/Magisk-24.0%2B-00B4D8?logo=magisk)](https://github.com/topjohnwu/Magisk)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-v1.4-green)](.)
+[![Version](https://img.shields.io/badge/Version-v1.4-green)](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
+[![Download](https://img.shields.io/badge/Download-zip-blue)](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
 
 ## 功能特性
 
@@ -94,6 +95,8 @@
 2. 进入 TWRP 等 Recovery
 3. 选择安装 → 选择 zip → 滑动刷入
 4. 重启手机
+
+> **💡 使用体验**：刚刷入重启后前几次打开懂球帝可能还会弹出开屏广告，这是 SDK 缓存尚未完全清理干净。正常使用片刻后，开屏将变为纯净的无广告背景图，日常使用中不再出现广告。
 
 ### 验证是否生效
 
