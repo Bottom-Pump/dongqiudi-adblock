@@ -1,0 +1,53 @@
+127.0.0.1 localhost
+::1 ip6-localhost
+
+# 懂球帝广告屏蔽 v2 - hosts 辅助文件
+# 主要拦截靠 iptables，hosts 作为 DNS 层面辅助
+
+# 穿山甲
+0.0.0.0 pglstatp-toutiao.com
+0.0.0.0 sf1-ad.pglstatp-toutiao.com
+0.0.0.0 sf3-ad.pglstatp-toutiao.com
+0.0.0.0 sf6-ad.pglstatp-toutiao.com
+0.0.0.0 sf16-ad.pglstatp-toutiao.com
+0.0.0.0 pangolin-sdk-toutiao.com
+0.0.0.0 ctobsnssdk.com
+0.0.0.0 api.pangle.io
+
+# 快手
+0.0.0.0 adkwai.com
+0.0.0.0 ad.adkwai.com
+0.0.0.0 kwad.net
+0.0.0.0 kwaid.com
+
+# 百度
+0.0.0.0 mobads.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 cpro.baidustatic.com
+
+# 广点通
+0.0.0.0 gdt.qq.com
+0.0.0.0 ads.gdt.qq.com
+0.0.0.0 adshonor.gdt.qq.com
+0.0.0.0 pgdt.gtimg.cn
+
+# 其他
+0.0.0.0 umeng.com
+0.0.0.0 sigmob.com
+0.0.0.0 mddlsa.com
+0.0.0.0 meishu.com
+0.0.0.0 doubleclick.net
+0.0.0.0 googlesyndication.com
+0.0.0.0 qzs.gdtimg.com
+0.0.0.0 gdtimg.com
+0.0.0.0 ugdtimg.com
+0.0.0.0 rtbcallback.sigmob.cn
+0.0.0.0 tm.sigmob.cn
+0.0.0.0 worldwide.sogou.com
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 e.kuaishou.cn
+0.0.0.0 pull.yximgs.com
+0.0.0.0 pull.etoote.com
+0.0.0.0 adprolink.xwpbj.com
+0.0.0.0 apmplus.volces.com
+0.0.0.0 fapi.xdrun.com
