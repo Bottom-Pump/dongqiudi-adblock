@@ -84,6 +84,12 @@
 
 > **注意**：拦截基于域名和 IP 段匹配，不会影响懂球帝 APP 的正常功能使用。
 
+## 下载
+
+[**⬇️ 点击下载最新版 dongqiudi-adblock-v1.4.zip**](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
+
+> 所有版本均发布在 [GitHub Releases](https://github.com/Bottom-Pump/dongqiudi-adblock/releases)，前往查看历史版本和更新说明。
+
 ## 环境要求
 
 - Magisk **24.0+**（推荐 Magisk 26+）
