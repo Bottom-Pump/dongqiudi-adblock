@@ -7,6 +7,18 @@ IPTABLES=/system/bin/iptables
 PKG=com.dongqiudi.news
 BASE_DIR=/data/data/$PKG
 LOG_FILE=/cache/dongqiudi-adblock.log
+LOG_MAX_SIZE=5242880  # 5MB，日志超过此大小自动清空
+
+# 日志大小管理：如果日志超过上限，自动清空
+check_log_size() {
+  if [ -f "$LOG_FILE" ]; then
+    local size=$(stat -c%s "$LOG_FILE" 2>/dev/null || echo 0)
+    if [ "$size" -gt "$LOG_MAX_SIZE" ] 2>/dev/null; then
+      : > "$LOG_FILE"
+      echo "[$(date '+%Y-%m-%d %H:%M:%S')] [懂球帝广告屏蔽] ⚠️ 日志超过5MB上限，已自动清空" >> "$LOG_FILE"
+    fi
+  fi
+}
 
 # 广告关键词列表
 AD_KEYWORDS="ad|adnet|pangle|sigmob|gdt|beizi|cpc_|ksad|mobads|preload|splash|wind|windmill|volley|eascript|retry|msa|cbd|huawei|openads|byted|pangle|unity|vungle|applovin|mintegral|adcolony|chartboost|ironsrc|tapjoy|jiguang|pushio|amazon"
@@ -21,6 +33,7 @@ done
 sleep 10
 
 log() {
+    check_log_size
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] [懂球帝广告屏蔽] $1" >> "$LOG_FILE" 2>/dev/null
 }
 

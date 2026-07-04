@@ -1,9 +1,9 @@
 #!/sbin/sh
-# 懂球帝广告屏蔽模块 - 安装界面 v1.4
+# 懂球帝广告屏蔽模块 - 安装界面 v1.4.1
 ui_print ""
 ui_print "  ┌─────────────────────────────────┐"
 ui_print "  │                                 │"
-ui_print "  │     懂球帝广告屏蔽 v1.4         │"
+ui_print "  │     懂球帝广告屏蔽 v1.4.1       │"
 ui_print "  │                                 │"
 ui_print "  │    专为懂球帝APP定制            │"
 ui_print "  │    拦截主流广告SDK              │"
@@ -26,7 +26,7 @@ ui_print "  └ 极光推送 拦截"
 ui_print ""
 ui_print "  ⚙️ 安装信息:"
 ui_print "  ├ 模块作者: Sinc"
-ui_print "  ├ 版本号: v1.4"
+ui_print "  ├ 版本号: v1.4.1"
 ui_print "  └ 安装路径: $MODPATH"
 ui_print ""
 ui_print "  🔧 设置权限..."

@@ -1,6 +1,6 @@
 id=dongqiudi-adblock
 name=懂球帝广告屏蔽
-version=v1.4
-versionCode=3
+version=v1.4.1
+versionCode=4
 author=Sinc
 description=专为懂球帝APP定制的广告屏蔽模块。开机自动清理16个广告SDK缓存目录并锁定(000)，同时通过iptables规则拦截穿山甲、广点通、倍孜、快手、Google、Unity、Vungle、AppLovin、Mintegral等主流广告SDK，为您带来清爽的看球体验。

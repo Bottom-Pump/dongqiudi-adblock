@@ -4,7 +4,7 @@
 
 [![Magisk](https://img.shields.io/badge/Magisk-24.0%2B-00B4D8?logo=magisk)](https://github.com/topjohnwu/Magisk)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-v1.4-green)](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
+[![Version](https://img.shields.io/badge/Version-v1.4.1-green)](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
 [![Download](https://img.shields.io/badge/Download-zip-blue)](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
 
 ## 功能特性
@@ -86,7 +86,7 @@
 
 ## 下载
 
-[**⬇️ 点击下载最新版 dongqiudi-adblock-v1.4.zip**](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
+[**⬇️ 点击下载最新版 dongqiudi-adblock-v1.4.1.zip**](https://github.com/Bottom-Pump/dongqiudi-adblock/releases/latest)
 
 > 所有版本均发布在 [GitHub Releases](https://github.com/Bottom-Pump/dongqiudi-adblock/releases)，前往查看历史版本和更新说明。
 
@@ -131,6 +131,9 @@ su -c "cat /cache/dongqiudi-adblock.log"
 
 ## 更新日志
 
+### v1.4.1（2026-07-04）
+- 新增日志大小限制，日志超过 5MB 自动清空，防止日志文件无限增长
+
 ### v1.4（2026-07-04）
 - 新增大量广告域名规则
 - 优化 iptables 规则自愈逻辑
@@ -153,7 +156,7 @@ su -c "cat /cache/dongqiudi-adblock.log"
 
 ```bash
 cd dongqiudi-adblock
-zip -r ../dongqiudi-adblock-v1.4.zip . -x ".git/*" -x "README.md" -x "LICENSE" -x ".gitignore"
+zip -r ../dongqiudi-adblock-v1.4.1.zip . -x ".git/*" -x "README.md" -x "LICENSE" -x ".gitignore"
 ```
 
 ## License
